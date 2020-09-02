@@ -56,19 +56,19 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Intake (week 1)
 
-**Je startniveau:** -blauwe piste-
+**Je startniveau:** blauwe piste
 
-**Je focus:** -surface plane-
+**Je focus:** surface plane
 
-**Je opdracht:** - https://www2.hm.com/nl_nl/index.html-
+**Je opdracht:** https://www2.hm.com/nl_nl/index.html
+
 **Screenshot(s):**
 
 ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/screenshotHenm.jpg)
-
 ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/screenshotHenm1.jpg)
 
 **Breakdown-schets(en):**
 
-![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/breakdownhenm-01.svg)
-![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/breakdownhenm-02.svg)
+![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/breakdown.henm-01.svg)
+![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/breakdown.henm-02.svg)
 
