@@ -45,12 +45,12 @@ Wat ik altijd al lastig vind is het javascript gedeelte.
 
 **Screenshot(s):**
 -screenshot(s) van hoe ver je bent-
-![screenshot(s) ](images/voortgang1.screenshot1)
-![screenshot(s) ](images/voortgang1.screenshot2)
-![screenshot(s) ](images/voortgang1.screenshot3)
-![screenshot(s) ](images/voortgang1.screenshot4)
-![screenshot(s) ](images/voortgang1.screenshot5)
-![screenshot(s) ](images/voortgang1.screenshot6)
+![screenshot(s) ](images/voortgang1.screenshot1.png)
+![screenshot(s) ](images/voortgang1.screenshot2.png)
+![screenshot(s) ](images/voortgang1.screenshot3.png)
+![screenshot(s) ](images/voortgang1.screenshot4.png)
+![screenshot(s) ](images/voortgang1.screenshot5.png)
+![screenshot(s) ](images/voortgang1.screenshot6.png)
 
 ### Agenda voor meeting
 
