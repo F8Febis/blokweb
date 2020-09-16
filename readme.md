@@ -41,7 +41,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 -dit ging goed & dit was lastig-
 
 De website namaken ging best wel goed, in het bgein snapte ik nth-of-child/type niet. Met uitleg snap ik het nu en is mijn 1e pagina af. 
-Wat ik altijd al lastig vind is het javascript gedeelte.
+Wat ik altijd al lastig vind is het javascript gedeelte, HTML en CSS ging goed.
 
 **Screenshot(s):**
 -screenshot(s) van hoe ver je bent-
