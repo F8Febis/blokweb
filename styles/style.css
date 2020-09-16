@@ -13,7 +13,7 @@ body {
 }
 
 /* navigatie*/
-ul li {
+nav ul li {
     list-style: none;
     width: 20px;
     height: 20px;
@@ -21,7 +21,7 @@ ul li {
 
 }
 
-ul {
+nav ul {
     padding-left: 10px;
     margin-top: 25px;
    
@@ -38,24 +38,24 @@ ul li:nth-last-child(4) {
 
 }
 
-ul li:nth-last-child(5) {
+nav ul li:nth-last-child(5) {
     width: 40px;
     height: 40px;
     margin-left: 15px;
 
 }
 
-ul li:nth-last-child(1) {
+nav ul li:nth-last-child(1) {
     margin-left: 20px;
 
 }
 
-ul li:nth-last-child(2) {
+nav ul li:nth-last-child(2) {
     margin-left: 20px;
 
 }
 
-ul li:nth-last-child(3) {
+nav ul li:nth-last-child(3) {
     margin-left: 20px;
 
 }
@@ -80,7 +80,7 @@ h1 {
 main section:first-of-type figure {
     margin: 0;
     display: inline-block;
-     margin-left: auto;
+    margin-left: auto;
     margin-right: auto;
 
 
@@ -341,8 +341,9 @@ footer ul:first-of-type li img {
 }
 
 footer ul:last-of-type {
-    margin-left: 20px;
-    margin-right: 5px;
+   display: flex;
+    justify-content: center;
+    padding: 0;
 
 }
 
@@ -356,13 +357,14 @@ footer ul:last-of-type li {
 
     display: inline-block;
     margin: 0;
-    margin-right: 30px;
+    margin-right: 35px;
+   
 
 }
 
 footer ul:nth-of-type(2) li img {
-    width: 22px;
-    height: 22px;
+    width: 20px;
+    height: 20px;
 }
 
 footer img:nth-last-child(2) {
