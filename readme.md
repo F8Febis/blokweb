@@ -55,6 +55,13 @@ Wat ik altijd al lastig vind is het javascript gedeelte, HTML en CSS ging goed.
 ### Agenda voor meeting
 
 -samen met je groepje opstellen-
+Vragen over:
+
+responsive maken
+navigatie bar
+micro interactie
+1 css bestand
+
 
 ### Verslag van meeting
 
