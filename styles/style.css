@@ -51,7 +51,7 @@ header div > img {
 
 header div > img:hover{
     animation-name: kruisje;
-    animation-duration:.3s;
+    animation-duration: 1s;
   animation-iteration-count:2;
 }
 
