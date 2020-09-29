@@ -19,7 +19,7 @@ function doeWeer() {
 
 }
 
-var hartje = document.querySelector("nav ul:first-of-type li:nth-child(5) img");
+var hartje = document.querySelector("nav ul:first-of-type li:nth-child(5) svg");
 
 hartje.addEventListener("click", hartjekloppen);
 

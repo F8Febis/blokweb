@@ -32,7 +32,7 @@ header > div {
 
 header div > img {
     position: fixed;
-  
+
     left: 274px;
     bottom: 300px;
     height: 26px;
@@ -155,12 +155,12 @@ nav ul:first-of-type li:nth-last-child(-n+3) {
     }
 }
 
-nav ul:first-of-type li:nth-child(5):hover svg{
+nav ul:first-of-type li:nth-child(5) svg.hart{
     animation-name: hartklop;
     animation-duration:2s;
     animation-iteration-count:infinite;
 }
-nav ul:first-of-type li:nth-child(5):hover svg path{
+nav ul:first-of-type li:nth-child(5) svg.hart path{
     animation-name: hartklop;
     fill:red;
     stroke:none;
@@ -240,6 +240,40 @@ main > p:nth-child(1) {
     margin-top: 80px;
 }
 
+@keyframes radiobuttons{
+    0% {
+    transform:translateY(0);
+  }
+  50% {
+    transform:translateY(-1rem); 
+  } 
+    100% {
+    transform:translateY(0);
+  }
+    
+}
+main section div:hover button {
+     animation-name: radiobuttons;
+    animation-duration:.5s;
+    animation-iteration-count:infinite;
+    
+    
+}
+main section div button:first-of-type {
+     animation-name: radiobuttons;
+    animation-delay: 0s;
+
+    
+}
+main section div button:nth-of-type(2) {
+     animation-name: radiobuttons;
+    animation-delay: .15s;
+}
+main section div button:last-of-type {
+     animation-name: radiobuttons;
+    animation-delay: .3s;
+    
+}
 /* 2e pagina */
 
 main > img {
