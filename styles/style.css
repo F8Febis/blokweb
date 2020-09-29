@@ -39,20 +39,20 @@ header div > img {
 
 }
 
-@keyframes kruisje{
+@keyframes kruisje {
     0% {
-    transform:rotate(0);
-  }
-  100% {
-    transform:rotate(1turn);
-  }
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(1turn);
+    }
 }
 
-
-header div > img:hover{
+header div > img:hover {
     animation-name: kruisje;
-    animation-duration: 1s;
-  animation-iteration-count:2;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
 }
 
 header div > ul:last-of-type {
@@ -62,7 +62,8 @@ header div > ul:last-of-type {
     padding: 0;
     margin: 0;
     width: 80%;
-    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 header > div.toonHamburger {
@@ -107,7 +108,7 @@ header div > ul:last-of-type li:first-of-type img {
     margin-right: 14px;
     position: relative;
     top: 8px;
-   
+
 }
 
 /* navigatie*/
@@ -117,6 +118,7 @@ nav {
     z-index: 100;
     position: fixed;
     top: 0;
+   
 }
 
 nav ul:first-of-type li {
@@ -131,7 +133,7 @@ nav ul:first-of-type {
     padding: 20px 10px 5px 10px;
     width: 100%;
     margin: 0;
-
+   
 }
 
 nav > ul:first-of-type li:last-of-type {
@@ -140,46 +142,46 @@ nav > ul:first-of-type li:last-of-type {
 
 }
 
-nav ul:first-of-type li:nth-last-child(4) {
-    margin-left: 50px;
-
-}
-
 nav ul:first-of-type li:nth-last-child(5) {
     width: 30px;
     height: 30px;
     margin-left: 15px;
-
 }
 
-nav ul:first-of-type li:nth-last-child(-n+3) {
+nav ul:first-of-type li:nth-last-child(-n+4) {
     margin-left: 20px;
+    float: right;
+
 }
-@keyframes hartklop{
-   
-  0% { 
-      transform: scale(1); 
+
+@keyframes hartklop {
+
+    0% {
+        transform: scale(1);
     }
-  
-  50% {
-      transform: scale(2); 
-      
+
+    50% {
+        transform: scale(2);
+
     }
-  100% {
-      transform: scale(1); 
+
+    100% {
+        transform: scale(1);
     }
 }
 
-nav ul:first-of-type li:nth-child(5) svg.hart{
+nav ul:first-of-type li:nth-child(5) svg.hart {
     animation-name: hartklop;
-    animation-duration:2s;
-    animation-iteration-count:infinite;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
-nav ul:first-of-type li:nth-child(5) svg.hart path{
+
+nav ul:first-of-type li:nth-child(5) svg.hart path {
     animation-name: hartklop;
-    fill:red;
-    stroke:none;
+    fill: red;
+    stroke: none;
 }
+
 p {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -199,10 +201,14 @@ main {
     padding-top: 20px;
     width: 100%;
 }
-
+main section >h1{
+    text-align: left;
+}
 main section:first-of-type {
     width: 100%;
     margin: 0;
+    text-align: center;
+   
 }
 
 main section:first-of-type figure {
@@ -255,14 +261,17 @@ main > p:nth-child(1) {
     margin-top: 80px;
 }
 
+/*
+
 @keyframes radiobuttons{
 
   50% {
     transform:translateY(-1rem); 
-      background-color: rgb(255, 0, 0, 0.8);
+      background-color: rgb(0, 0, 0, 0.8);
   } 
     100% {
     transform:translateY(0);
+        
   }
     
 }
@@ -271,20 +280,24 @@ main section div:hover button {
     animation-duration:.5s;
     animation-iteration-count:infinite;
 }
+*/
 main section div button:first-of-type {
-     animation-name: radiobuttons;
+    animation-name: radiobuttons;
     animation-delay: 0s;
-    
+
 }
+
 main section div button:nth-of-type(2) {
-     animation-name: radiobuttons;
+    animation-name: radiobuttons;
     animation-delay: .15s;
 }
+
 main section div button:last-of-type {
-     animation-name: radiobuttons;
+    animation-name: radiobuttons;
     animation-delay: .3s;
-    
+
 }
+
 /* 2e pagina */
 
 main > img {
@@ -293,12 +306,16 @@ main > img {
     display: block;
 }
 
+#main2 section {
+    width: 100%;
+}
+
 #main2 > p:first-of-type {
     color: #ffffff;
     font-size: 20px;
-    line-height: 1300%;
+    line-height: 1250%;
     font-weight: bold;
-    bottom: 30px;
+    bottom: 80px;
     left: 100px;
 }
 
@@ -323,13 +340,13 @@ main > img {
     font-weight: bold;
     color: #ffffff;
     font-size: 16px;
-    top: 335px;
+    top: 336px;
 }
 
 #main2 section:first-of-type div > p:first-of-type {
     color: #ffffff;
     font-size: 12px;
-    top: 470px;
+    top: 520px;
     padding: 0;
     margin: 0;
 }
@@ -345,35 +362,86 @@ main > img {
     line-height: 1300%;
     font-weight: bold;
     color: #ffffff;
-    top: 510px;
-    left: 60px;
+    top: 560px;
+    left: 70px;
 }
 
 #main2 section:nth-of-type(2) div {
     background-color: #EEEAE5;
-    width: 200px;
+ 
     height: 240px;
+     width: 70%;
 }
 
 #main2 section:nth-of-type(2) > p:first-of-type {
     color: #ffffff;
+    font-size: 14px;
+    line-height: 1100%;
+    font-weight: bold;
+    top: 990px;
+    left: 30px;
+
+}
+
+#main2 section:nth-of-type(2) div p:first-of-type {
+    top: 1120px;
+
+}
+
+#main2 section:nth-of-type(2) div p:last-of-type {
+    font-size: 14px;
+    line-height: 1100%;
+    font-weight: bold;
+    top: 990px;
+
+
+}
+
+#main2 > p:nth-of-type(4) {
+
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 1500%;
+    font-weight: bold;
+    top: 1170px;
+    left: 90px;
 }
 
 #main2 section:nth-of-type(3) div {
     background-color: #F3C2BC;
-    width: 200px;
+  
     height: 240px;
 }
 
+#main2 section:nth-of-type(3) div > p:first-of-type {
+    top: 1650px;
+    font-size: 14px;
+    line-height: 1000%;
+    font-weight: bold;
+}
+
+#main2 section:nth-of-type(3) > p:last-of-type {
+    left: 200px;
+    font-size: 14px;
+    line-height: 1000%;
+    font-weight: bold;
+    color: #ffffff;
+    top: 1650px;
+
+}
 #main2 section:nth-of-type(3) {
     background-color: #FAF9F8;
 }
 
 #main2 section img {
-    width: 160px;
+     width: 50%;
     height: 240px;
     margin: 0;
 
+}
+
+#main2 section:nth-of-type(2) img {
+    z-index: -1;
 }
 
 #main2 p:nth-child(-n+8) {
@@ -500,8 +568,7 @@ section:nth-of-type(3) div > img {
 
 }
 
-section:nth-of-type(3) div p,
-h3 {
+section:nth-of-type(3) div p,h3 {
     position: absolute;
 }
 
@@ -564,6 +631,9 @@ footer ul:first-of-type li img {
     height: 18px;
     position: relative;
     bottom: 20px;
+    float: right;
+    margin-right: 20px;
+    
 
 }
 
@@ -594,10 +664,48 @@ footer img:nth-last-child(2) {
     width: 200px;
     height: 60px;
     margin-left: 65px;
-
 }
 
 footer p {
     line-height: 20px;
     font-size: 12px;
 }
+
+
+
+@media (max-width: 375px){
+    
+    main section:first-of-type > h1 {
+    margin-left: 30px;
+        
+    }
+    main section:nth-of-type(2) figure:first-of-type figcaption{
+        top: 610px;
+        left: 60px;
+    }
+    main section:nth-of-type(2) figure:nth-of-type(2) figcaption{
+        top: 730px;
+    }
+    main section:nth-of-type(2) figure:last-of-type figcaption{
+        width: 330px;
+        top:1080px;
+    }
+    main section:nth-of-type(3) div:last-of-type p:first-of-type{
+        width: 320px;
+        font-size: 11px;
+    }
+    footer ul:first-of-type li img{
+        margin-top: 18px;
+    }
+    footer ul:first-of-type li:nth-of-type(2) img{
+        margin-top: 6px;
+    }
+    
+    /* pagina 2*/
+    #main2 > p:first-of-type{
+        bottom:140px;
+        left: 130px;
+        
+    }
+}
+
