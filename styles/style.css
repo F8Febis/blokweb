@@ -146,21 +146,23 @@ nav ul:first-of-type li:nth-last-child(-n+3) {
   
   50% {
       transform: scale(2); 
-  
+      
     }
   100% {
       transform: scale(1); 
     }
 }
-    
 
-nav ul:first-of-type li:nth-child(5):hover img{
+nav ul:first-of-type li:nth-child(5):hover svg{
     animation-name: hartklop;
- animation-duration:2s;
-     animation-iteration-count:infinite;
-    
+    animation-duration:2s;
+    animation-iteration-count:infinite;
 }
-
+nav ul:first-of-type li:nth-child(5):hover svg path{
+    animation-name: hartklop;
+    fill:red;
+    stroke:none;
+}
 p {
     margin-top: 30px;
     margin-bottom: 30px;
