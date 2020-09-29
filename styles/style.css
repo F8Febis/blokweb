@@ -32,12 +32,27 @@ header > div {
 
 header div > img {
     position: fixed;
-
     left: 274px;
     bottom: 300px;
     height: 26px;
     width: 26px;
 
+}
+
+@keyframes kruisje{
+    0% {
+    transform:rotate(0);
+  }
+  100% {
+    transform:rotate(1turn);
+  }
+}
+
+
+header div > img:hover{
+    animation-name: kruisje;
+    animation-duration:.3s;
+  animation-iteration-count:2;
 }
 
 header div > ul:last-of-type {
@@ -241,11 +256,10 @@ main > p:nth-child(1) {
 }
 
 @keyframes radiobuttons{
-    0% {
-    transform:translateY(0);
-  }
+
   50% {
     transform:translateY(-1rem); 
+      background-color: rgb(255, 0, 0, 0.8);
   } 
     100% {
     transform:translateY(0);
@@ -256,13 +270,10 @@ main section div:hover button {
      animation-name: radiobuttons;
     animation-duration:.5s;
     animation-iteration-count:infinite;
-    
-    
 }
 main section div button:first-of-type {
      animation-name: radiobuttons;
     animation-delay: 0s;
-
     
 }
 main section div button:nth-of-type(2) {
