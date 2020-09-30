@@ -118,7 +118,7 @@ nav {
     z-index: 100;
     position: fixed;
     top: 0;
-   
+
 }
 
 nav ul:first-of-type li {
@@ -133,7 +133,7 @@ nav ul:first-of-type {
     padding: 20px 10px 5px 10px;
     width: 100%;
     margin: 0;
-   
+
 }
 
 nav > ul:first-of-type li:last-of-type {
@@ -201,14 +201,16 @@ main {
     padding-top: 20px;
     width: 100%;
 }
-main section >h1{
+
+main section > h1 {
     text-align: left;
 }
+
 main section:first-of-type {
     width: 100%;
     margin: 0;
     text-align: center;
-   
+
 }
 
 main section:first-of-type figure {
@@ -368,9 +370,9 @@ main > img {
 
 #main2 section:nth-of-type(2) div {
     background-color: #EEEAE5;
- 
+
     height: 240px;
-     width: 70%;
+    width: 70%;
 }
 
 #main2 section:nth-of-type(2) > p:first-of-type {
@@ -409,7 +411,7 @@ main > img {
 
 #main2 section:nth-of-type(3) div {
     background-color: #F3C2BC;
-  
+
     height: 240px;
 }
 
@@ -429,12 +431,13 @@ main > img {
     top: 1650px;
 
 }
+
 #main2 section:nth-of-type(3) {
     background-color: #FAF9F8;
 }
 
 #main2 section img {
-     width: 50%;
+    width: 50%;
     height: 240px;
     margin: 0;
 
@@ -568,7 +571,8 @@ section:nth-of-type(3) div > img {
 
 }
 
-section:nth-of-type(3) div p,h3 {
+section:nth-of-type(3) div p,
+h3 {
     position: absolute;
 }
 
@@ -633,7 +637,7 @@ footer ul:first-of-type li img {
     bottom: 20px;
     float: right;
     margin-right: 20px;
-    
+
 
 }
 
@@ -674,111 +678,140 @@ footer p {
 
 
 @media (min-width: 360px) {
-    header div > img{
+    header div > img {
         left: 315px;
     }
+
     main section:first-of-type > h1 {
-    margin-left: 40px;
+        margin-left: 40px;
         padding-left: 0;
-        
+
     }
-    main section:nth-of-type(2) figure:first-of-type figcaption{
+
+    main section:nth-of-type(2) figure:first-of-type figcaption {
         top: 610px;
         left: 60px;
     }
-    main section:nth-of-type(2) figure:nth-of-type(2) figcaption{
+
+    main section:nth-of-type(2) figure:nth-of-type(2) figcaption {
         top: 730px;
     }
-    main section:nth-of-type(2) figure:last-of-type figcaption{
+
+    main section:nth-of-type(2) figure:last-of-type figcaption {
         width: 330px;
-        top:1150px;
-      
+        top: 1150px;
+
     }
-    main section:nth-of-type(3) div:last-of-type p:first-of-type{
+
+    main section:nth-of-type(3) div:last-of-type p:first-of-type {
         width: 320px;
         font-size: 11px;
     }
-    footer ul:first-of-type li img{
+
+    footer ul:first-of-type li img {
         margin-top: 18px;
     }
-    footer ul:first-of-type li:nth-of-type(2) img{
+
+    footer ul:first-of-type li:nth-of-type(2) img {
         margin-top: 6px;
     }
-    
+
     /* pagina 2*/
-    #main2 > p:first-of-type{
-        bottom:140px;
-        left: 130px;   
+    #main2 > p:first-of-type {
+        bottom: 110px;
+        left: 120px;
     }
-    
+
+    #main2 > p:nth-of-type(3) {
+        left: 80px;
+    }
+
+    #main2 > p:nth-of-type(4) {
+        left: 110px;
+    }
+#main2 section:nth-of-type(3) > p:last-of-type {
+    left: 220px;
+    }
+
 }
 
-@media (min-width: 400px){
-    header div > img{
+@media (min-width: 400px) {
+    header div > img {
         left: 355px;
     }
+
     main section:first-of-type > h1 {
-    margin-left: 65px;
+        margin-left: 65px;
     }
-     main section:nth-of-type(2) figure:first-of-type figcaption{
+
+    main section:nth-of-type(2) figure:first-of-type figcaption {
         top: 640px;
         left: 60px;
     }
-    main section:nth-of-type(2) figure:nth-of-type(2) figcaption{
+
+    main section:nth-of-type(2) figure:nth-of-type(2) figcaption {
         top: 780px;
     }
-    
+
     main section:nth-of-type(2) figure:last-of-type figcaption {
         width: 335px;
-        top:1300px;
-      
+        top: 1300px;
+
     }
-    main section:nth-of-type(3) div:first-of-type p:first-of-type{
+
+    main section:nth-of-type(3) div:first-of-type p:first-of-type {
         width: 300px;
         font-size: 11px;
     }
-     
-    main section:nth-of-type(3) div:last-of-type p:first-of-type{
+
+    main section:nth-of-type(3) div:last-of-type p:first-of-type {
         width: 320px;
         font-size: 11px;
     }
+
     /* pagina 2*/
-    #main2 >p:first-of-type{
-        bottom:220px;
-    } 
-    #main2 >p:nth-of-type(3){
-       left: 120px;
+    #main2 > p:first-of-type {
+        bottom: 100px;
+        left: 140px;
     }
-    #main2 >p:nth-of-type(4){
-       left: 130px;
+
+    #main2 > p:nth-of-type(3) {
+        left: 110px;
     }
+
+    #main2 > p:nth-of-type(4) {
+        left: 130px;
+    }
+
     #main2 section:nth-of-type(3) > p:last-of-type {
-        
-        left: 260px;
+
+        left: 250px;
     }
-     
-    footer ul:first-of-type li img{
+
+    footer ul:first-of-type li img {
         margin-top: 20px;
     }
-    footer ul:first-of-type li:nth-of-type(2) img{
+
+    footer ul:first-of-type li:nth-of-type(2) img {
         margin-top: 6px;
     }
 }
 
- @media (min-height: 800px){
-      #main2 >p:first-of-type{
-        bottom:290px;
-    } 
-      
-    #main2 >p:nth-of-type(3){
-       left: 100px;
+@media (min-height: 800px) {
+    #main2 > p:first-of-type {
+        bottom: 290px;
     }
-    #main2 >p:nth-of-type(4){
-       left: 110px;
+
+    #main2 > p:nth-of-type(3) {
+        left: 100px;
     }
-     #main2 section:nth-of-type(3) > p:last-of-type {
-        
+
+    #main2 > p:nth-of-type(4) {
+        left: 110px;
+    }
+
+    #main2 section:nth-of-type(3) > p:last-of-type {
+
         left: 235px;
     }
 }
-
