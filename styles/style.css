@@ -324,7 +324,7 @@ main > img {
 #main2 > p:nth-of-type(2) {
     color: #ffffff;
     font-size: 16px;
-    transform: translateY(200px);
+    top: 160px;
     text-align: center;
 }
 
@@ -677,7 +677,7 @@ footer p {
 
 
 
-@media (min-width: 360px) {
+@media  (min-width: 360px) {
     header div > img {
         left: 315px;
     }
@@ -687,7 +687,9 @@ footer p {
         padding-left: 0;
 
     }
-
+section:nth-of-type(3) div > p:last-child {
+    width: 210px;
+    }
     main section:nth-of-type(2) figure:first-of-type figcaption {
         top: 610px;
         left: 60px;
@@ -734,8 +736,14 @@ footer p {
     }
 
 }
+@media (min-height: 660px){
+      #main2 > p:first-of-type {
+        bottom: 190px;
+        
+    }
+}
 
-@media (min-width: 400px) and (min-height: 800px)  {
+@media (min-width: 400px)  {
     header div > img {
         left: 355px;
     }
@@ -815,3 +823,4 @@ footer p {
         left: 235px;
     }
 }
+
