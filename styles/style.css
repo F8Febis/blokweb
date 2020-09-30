@@ -718,7 +718,7 @@ footer p {
 
     /* pagina 2*/
     #main2 > p:first-of-type {
-        bottom: 110px;
+        bottom: 130px;
         left: 120px;
     }
 
@@ -735,7 +735,7 @@ footer p {
 
 }
 
-@media (min-width: 400px) {
+@media (min-width: 400px) and (min-height: 800px)  {
     header div > img {
         left: 355px;
     }
