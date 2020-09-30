@@ -33,8 +33,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 -same as voortgang 1-
  ![screenshot(s) ](images/voortgang2.pagina1.jpg)
 ![screenshot(s) ](images/voortgang2.pagina2.jpg)
-![screenshot(s) ](images/voortgang2.Animatie.Hartje.mp4)
-![screenshot(s) ](images/voortgang2.Animatie.Kruisje.mp4)
+![screenshot(s) ](images/voortgang2.Animatie.Hartje.gif)
+![screenshot(s) ](images/voortgang2.Animatie.Kruisje.gif)
 
 
 
