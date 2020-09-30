@@ -673,7 +673,7 @@ footer p {
 
 
 
-@media (min-width: 375px){
+@media (min-width: 375px) and (max-width: 375px){
     
     main section:first-of-type > h1 {
     margin-left: 30px;
