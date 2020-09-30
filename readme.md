@@ -30,11 +30,17 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+-dit ging goed & dit was lastig-
+
+Beide pagina's maken ging goed, had af en toe wat problemen. Maar die waren al snel opgelost door goed te kijken. Vorige week had in mijn 1e pagina af, ik heb nu de 2e af. En heb mijn hamburger menu toegevoegd met javascript. Toen dat alles gelukt was heb ik wat animaties toegevoegd. Om te experimenteren; een kloppend hartje en een kruisje dat ronddraait. 
+Ik was daarna aan het spelen met medie queries om het responsive te maken om kleine en grote mobiel schermen.
+
+
+**Screenshot(s):**
  ![screenshot(s) ](images/voortgang2.pagina1.jpg)
 ![screenshot(s) ](images/voortgang2.pagina2.jpg)
-![screenshot(s) ](images/voortgang2.Animatie.Hartje.gif)
-![screenshot(s) ](images/voortgang2.Animatie.Kruisje.gif)
+![screenshot(s) ](images/voortgang2.animatie.hartje.gif)
+![screenshot(s) ](images/voortgang2.animatie.kruisje.gif)
 
 
 
@@ -48,7 +54,6 @@ De website namaken ging best wel goed, in het bgein snapte ik nth-of-child/type 
 Wat ik altijd al lastig vind is het javascript gedeelte, HTML en CSS ging goed.
 
 **Screenshot(s):**
--screenshot(s) van hoe ver je bent-
 ![screenshot(s) ](images/voortgang1.screenshot1.png)
 ![screenshot(s) ](images/voortgang1.screenshot2.png)
 ![screenshot(s) ](images/voortgang1.screenshot3.png)
