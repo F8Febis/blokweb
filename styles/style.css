@@ -674,7 +674,9 @@ footer p {
 
 
 @media (min-width: 360px){
-    
+    header div > img{
+        left: 325px;
+    }
     main section:first-of-type > h1 {
     margin-left: 40px;
         padding-left: 0;
@@ -712,8 +714,11 @@ footer p {
 }
 
 @media (min-width: 400px){
+    header div > img{
+        left: 355px;
+    }
     main section:first-of-type > h1 {
-    margin-left: 50px;
+    margin-left: 65px;
     }
      main section:nth-of-type(2) figure:first-of-type figcaption{
         top: 640px;
