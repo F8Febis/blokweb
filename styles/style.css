@@ -353,7 +353,7 @@ main > img {
 
 #main2 section:first-of-type div {
     background-color: #192C0F;
-    width: 200px;
+    width: 70%;
     height: 240px;
 }
 
@@ -673,7 +673,7 @@ footer p {
 
 
 
-@media (max-width: 375px){
+@media (min-width: 375px){
     
     main section:first-of-type > h1 {
     margin-left: 30px;
@@ -688,7 +688,8 @@ footer p {
     }
     main section:nth-of-type(2) figure:last-of-type figcaption{
         width: 330px;
-        top:1080px;
+        top:1200px;
+      
     }
     main section:nth-of-type(3) div:last-of-type p:first-of-type{
         width: 320px;
