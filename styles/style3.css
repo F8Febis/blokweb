@@ -376,7 +376,7 @@ section section:nth-of-type(3) div div:last-of-type div {
     background-color: rgb(0, 0, 0, 0.7);
     padding: 8px 45px 15px 15px;
     position: absolute;
-    top: 1220px;
+    top: 1020px;
  
     
 }
@@ -1219,6 +1219,12 @@ footer p {
         position: absolute;
 
     }
+    section section:nth-of-type(3) div div:last-of-type div {
+   
+    top: 1220px;
+ 
+    
+}
 
 }
 
