@@ -1,0 +1,1300 @@
+/* CSS Document */
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "HMAmpersand light";
+    src: url("fonts/HMAmpersand-Light.ttf");
+}
+
+html,
+body {
+    background-color: #FAF9F8;
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+}
+
+/*Hamburger menu*/
+
+header > div {
+    display: block;
+    background-color: rgba(0, 0, 0, .5);
+    height: 100%;
+    width: 100%;
+    z-index: 1001;
+    position: fixed;
+    transform: translateX(-100%);
+    transition: .5s;
+
+}
+
+header div > img {
+    position: fixed;
+    left: 274px;
+    bottom: 300px;
+    height: 26px;
+    width: 26px;
+
+}
+
+@keyframes kruisje {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(1turn);
+    }
+}
+
+header div > img:hover {
+    animation-name: kruisje;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+header div > ul:last-of-type {
+    background-color: #FAF9F8;
+    height: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 80%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+header > div.toonHamburger {
+    transform: translateX(0%);
+}
+
+.pijltje {
+    float: right;
+    margin-left: 40px;
+    width: 12px;
+    height: 12px;
+}
+
+header div > ul:last-of-type li img {
+    width: 16px;
+    height: 16px;
+}
+
+header div ul:last-of-type li:nth-child(n+9) {
+    font-size: 13px;
+}
+
+header div ul:last-of-type li:nth-of-type(8) a {
+    text-decoration: none;
+    color: #000000;
+}
+
+header div > ul:last-of-type li {
+    padding: 20px 10px 10px 20px;
+    margin: 0;
+
+}
+
+header div > ul:last-of-type li:first-of-type {
+    background-color: #F0DDD7;
+    padding-bottom: 20px;
+}
+
+header div > ul:last-of-type li:first-of-type img {
+    height: 24px;
+    width: 24px;
+    margin-right: 14px;
+    position: relative;
+    top: 8px;
+
+}
+
+/* navigatie*/
+
+nav {
+    width: 100%;
+    background-color: #FAF9F8;
+    z-index: 1001;
+    top: 0;
+
+}
+
+nav:first-of-type {
+    position: fixed;
+}
+
+nav ul:first-of-type li {
+    list-style: none;
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+
+}
+
+nav ul:first-of-type {
+    padding: 20px 10px 5px 10px;
+    width: 100%;
+    margin: 0;
+
+}
+
+nav > ul:first-of-type li:last-of-type {
+    width: 17px;
+    height: 17px;
+
+}
+
+nav ul:first-of-type li:nth-last-child(5) {
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+}
+
+nav ul:first-of-type li:nth-last-child(-n+4) {
+    margin-left: 20px;
+    float: right;
+
+}
+
+@keyframes hartklop {
+
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(2);
+
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+nav ul:first-of-type li:nth-child(5) svg.hart {
+    animation-name: hartklop;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+nav ul:first-of-type li:nth-child(5) svg.hart path {
+    animation-name: hartklop;
+    fill: red;
+    stroke: none;
+}
+
+/* carousel */
+h1 {
+    font-size: 18px;
+    padding-left: 18px;
+}
+
+main {
+    padding-top: 20px;
+    width: 100%;
+}
+
+main section:first-of-type > h1 {
+    margin-left: 30px;
+    text-align: left;
+}
+
+main > section:first-of-type {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+
+}
+
+main section:first-of-type figure {
+    margin: 0;
+    display: inline-block;
+}
+
+main section:first-of-type figure img {
+    height: 65px;
+    width: 65px;
+    border-radius: 100%;
+    margin-left: 5px;
+
+}
+
+main section figure img:first-of-type {
+    margin-left: 5px;
+
+}
+
+main section:first-of-type figure figcaption {
+    text-align: center;
+    font-size: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    font-weight: bold;
+    color: #3d3c3c;
+}
+
+/* radio buttons */
+#main1 > section:first-of-type div {
+    margin-bottom: 20px;
+
+}
+
+main section:first-of-type div button {
+    border: 0;
+    border-radius: 50%;
+    width: 6px;
+    height: 6px;
+    background-color: rgb(0, 0, 0, 0.2);
+    margin-right: 10px;
+    margin-top: 6px;
+    padding: 0;
+}
+
+@keyframes radiobuttons {
+
+    50% {
+        transform: translateY(-1rem);
+        background-color: rgb(255, 0, 0, 0.8);
+    }
+
+    100% {
+        transform: translateY(0);
+
+    }
+
+}
+
+main section div:hover button {
+    animation-name: radiobuttons;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+}
+
+main section div button:first-of-type {
+    animation-name: radiobuttons;
+    animation-delay: 0s;
+
+}
+
+main section div button:nth-of-type(2) {
+    animation-name: radiobuttons;
+    animation-delay: .15s;
+}
+
+main section div button:last-of-type {
+    animation-name: radiobuttons;
+    animation-delay: .3s;
+
+}
+
+main section > button:first-of-type svg {
+    transform: scaleX(-1);
+    margin-bottom: 60px;
+    margin-left: 10px;
+    width: 26px;
+
+    height: 26px;
+}
+
+main section > button:last-of-type svg {
+    width: 26px;
+    height: 26px;
+    margin-bottom: 60px;
+    margin-left: 10px;
+    outline: none;
+    border: 0;
+}
+
+
+main section > button svg:focus {
+    stroke: #FF0000;
+    outline: none;
+    border: 0;
+
+}
+
+main section > button svg a:hover {
+    cursor: pointer;
+    stroke: #FF0000;
+}
+
+main section > button {
+    background: transparent;
+    outline: none;
+    border: 0;
+}
+
+main > p:nth-child(1) {
+    margin-top: 80px;
+    margin-bottom: 40px;
+    font-size: 10px;
+    text-align: center;
+}
+
+#main1 > section section div div {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+
+section:nth-of-type(2) div div:first-of-type img {
+
+    width: 100%;
+    position: relative;
+    margin-bottom: 10px;
+    display: block;
+    object-fit: cover;
+
+}
+
+section section:first-of-type div div:first-of-type img {
+    height: 400px;
+
+
+}
+
+section section:nth-of-type(2) div div:first-of-type img {
+    height: 100px;
+
+}
+
+section section:nth-of-type(3) div div:first-of-type img {
+    height: 400px;
+
+}
+
+section section:last-of-type div div:first-of-type img {
+    height: 400px;
+
+}
+
+section section:first-of-type div div:last-of-type p {
+    top: 660px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+    font-size: 14px;
+
+}
+
+section section:first-of-type div div:last-of-type h2 {
+    top: 620px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+    font-size: 20px;
+
+}
+
+section section:nth-of-type(2) div div:last-of-type h2 {
+    top: 785px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+    position: absolute;
+
+}
+
+
+section:nth-of-type(2) > section:nth-of-type(3) div div:last-of-type h2 {
+    top: 1140px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+    font-size: 18px;
+}
+
+section:nth-of-type(2) > section:nth-of-type(3) div div:last-of-type p {
+    top: 1180px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+
+}
+
+section section:last-of-type div div:last-of-type h2 {
+    top: 1560px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    position: absolute;
+
+}
+
+section section:last-of-type div div:last-of-type p {
+    top: 1600px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+
+}
+
+
+
+
+/* section 3*/
+
+
+#main1 > section:nth-of-type(3) {
+    background-color: #F4EDDD;
+    padding-bottom: 20px;
+
+}
+
+#main1 > section:nth-of-type(3) h1 {
+    text-align: center;
+    font-size: 34px;
+    padding-top: 40px;
+}
+
+#main1 > section:nth-of-type(3) h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 12px;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+
+
+}
+
+#main1 > section:nth-of-type(3) div div {
+
+
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    width: 90%;
+
+
+}
+
+#main1 > section:nth-of-type(3) div {
+
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+#main1 > section:nth-of-type(3) div div img {
+    width: 100%;
+    height: auto;
+
+}
+
+#main1 > section:nth-of-type(3) div div p,
+h3 {
+
+    text-align: center;
+}
+
+#main1 > section:nth-of-type(3) div div h3 {
+
+    font-weight: normal;
+    font-size: 14px;
+}
+
+#main1 > section:nth-of-type(3) div div p:first-of-type {
+
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#main1 > section:nth-of-type(3) div div p:last-of-type {
+
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+
+#main1 > section:nth-of-type(3) div div p:last-of-type img {
+    height: 16px;
+    width: 16px;
+    margin-left: 5px;
+    position: relative;
+    top: 3px;
+
+}
+
+/* pagina 2 */
+#main2 div:nth-of-type(2n+1) div img {
+    width: 100%;
+    display: block;
+    position: relative;
+    height: 460px;
+}
+
+#main2 div div {
+    display: flex;
+    justify-content: center;
+
+}
+
+#main2 > div h2 {
+    position: absolute;
+    text-align: center;
+}
+
+#main2 > div p {
+    position: absolute;
+    text-align: center;
+}
+
+#main2 div:first-of-type div h2 {
+    width: 80px;
+    top: 5px;
+    line-height: 1100%;
+    color: #ffffff;
+
+
+}
+
+#main2 div:first-of-type div p {
+    top: 265px;
+    width: 300px;
+    color: #ffffff;
+
+}
+
+#main2 div:nth-of-type(3) div h2 {
+    line-height: 1400%;
+    top: 635px;
+    color: #ffffff;
+
+}
+
+#main2 div:nth-of-type(5) div h2 {
+    line-height: 1400%;
+    top: 1370px;
+    color: #ffffff;
+}
+
+#main2 div:nth-of-type(2) div:last-of-type {
+    background-color: #192C0F;
+    width: 100%;
+    height: 280px;
+    color: #ffffff;
+}
+
+#main2 div:nth-of-type(4) div:last-of-type {
+    background-color: #EEEAE5;
+    width: 100%;
+    height: 280px;
+
+}
+
+#main2 div:nth-of-type(6) div:last-of-type {
+    background-color: #F3C2BC;
+    width: 100%;
+    height: 280px;
+}
+
+#main2 div:nth-of-type(2) div:first-of-type h2 {
+    top: 410px;
+    width: 90px;
+    line-height: 1100%;
+    font-size: 18px;
+    color: #ffffff;
+
+}
+
+#main2 div:nth-of-type(2) div:last-of-type h2 {
+    top: 410px;
+    line-height: 1100%;
+    font-size: 18px;
+    color: #ffffff;
+
+}
+
+#main2 div:nth-of-type(2) div:last-of-type p {
+    top: 560px;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+#main2 div:nth-of-type(4) div:first-of-type h2 {
+    top: 1150px;
+    line-height: 1100%;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+#main2 div:nth-of-type(4) div:last-of-type h2 {
+    top: 1150px;
+    line-height: 1100%;
+    font-size: 18px;
+
+
+}
+
+#main2 div:nth-of-type(4) div:last-of-type p {
+    top: 1300px;
+    font-size: 14px;
+
+
+
+}
+
+#main2 div:nth-of-type(6) div:first-of-type h2 {
+    top: 1890px;
+    line-height: 1100%;
+    font-size: 18px;
+    color: #ffffff;
+
+}
+
+#main2 div:nth-of-type(6) div:last-of-type h2 {
+    top: 1890px;
+    line-height: 1100%;
+    font-size: 18px;
+
+}
+
+#main2 div:nth-of-type(6) div:last-of-type p {
+    top: 2030px;
+    font-size: 12px;
+}
+
+#main2 div:nth-of-type(2n+2) div:first-of-type img {
+    width: 100%;
+    height: 280px;
+}
+
+
+#main2 div:nth-of-type(2n+2) {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    width: 100%;
+}
+
+
+#main2 > p {
+    padding: 25px 40px 25px 40px;
+    text-align: center;
+
+}
+
+/* footer */
+footer {
+    background-color: #E4E4E4;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+footer ul:first-of-type li {
+    display: block;
+    margin-bottom: 40px;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+footer p:nth-of-type(3) img {
+    width: 18px;
+    height: 18px;
+    float: right;
+}
+
+footer p:nth-of-type(3) {
+    text-align: left;
+    font-weight: bold;
+    margin-left: 10px;
+
+}
+
+footer ul:first-of-type li img {
+    width: 18px;
+    height: 18px;
+    position: relative;
+    bottom: 20px;
+    float: right;
+    margin-right: 20px;
+
+
+}
+
+footer ul:last-of-type {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+
+}
+
+footer ul:first-of-type li img {
+    margin-left: 240px;
+
+}
+
+footer ul:last-of-type li {
+    display: inline-block;
+    margin: 0;
+    margin-right: 35px;
+}
+
+footer ul:nth-of-type(2) li img {
+    width: 20px;
+    height: 20px;
+}
+
+footer img:nth-last-child(2) {
+    width: 200px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+footer p {
+    line-height: 20px;
+    font-size: 12px;
+    text-align: center;
+
+}
+
+@media (min-width: 767px) {
+
+    nav ul:first-of-type li {
+
+        width: 24px;
+        height: 24px;
+    }
+
+    nav ul:first-of-type li:nth-last-child(5) {
+        width: 34px;
+        height: 34px;
+    }
+
+    main section:first-of-type > h1 {
+        margin-left: 130px;
+
+    }
+
+    main > section:nth-of-type(2) {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+
+    #main1 > section:nth-of-type(3) > div div {
+        width: 30%;
+
+    }
+
+    #main1 > section:nth-of-type(3) > div {
+
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+
+    }
+
+    #main2 div:nth-of-type(2n+1) div img {
+        object-fit: cover;
+        height: 580px;
+    }
+
+    #main2 div:nth-of-type(2n+2) div:first-of-type img {
+        height: 380px;
+        width: 460px;
+
+    }
+
+    #main2 div:nth-of-type(2) div:last-of-type {
+        height: 380px;
+        width: 55%;
+    }
+
+    #main2 div:nth-of-type(4) div:last-of-type {
+        height: 380px;
+        width: 55%;
+    }
+
+    #main2 div:nth-of-type(6) div:last-of-type {
+        height: 380px;
+        width: 55%;
+    }
+
+    #main2 div:first-of-type div h2 {
+        line-height: 1400%;
+
+    }
+
+    #main2 div:nth-of-type(2) div:first-of-type h2 {
+        top: 540px;
+        line-height: 1400%;
+    }
+
+    #main2 div:nth-of-type(2) div:last-of-type h2 {
+        top: 540px;
+        line-height: 1400%;
+    }
+
+    #main2 div:nth-of-type(2) div:last-of-type p {
+        top: 740px;
+    }
+
+    #main2 div:nth-of-type(3) div h2 {
+        top: 880px;
+        line-height: 1600%;
+    }
+
+    #main2 div:nth-of-type(4) div:first-of-type h2 {
+        top: 1490px;
+        line-height: 1400%;
+    }
+
+    #main2 div:nth-of-type(4) div:last-of-type h2 {
+        top: 1490px;
+        line-height: 1400%;
+
+
+    }
+
+    #main2 div:nth-of-type(4) div:last-of-type p {
+
+        top: 1680px;
+
+    }
+
+    #main2 div:nth-of-type(5) div h2 {
+        top: 1790px;
+        line-height: 1800%;
+
+    }
+
+    #main2 div:nth-of-type(6) div:first-of-type h2 {
+        top: 2460px;
+        line-height: 1400%;
+
+    }
+
+    #main2 div:nth-of-type(6) div:last-of-type h2 {
+        top: 2460px;
+        line-height: 1400%;
+
+    }
+
+    #main2 div:nth-of-type(6) div:last-of-type p {
+
+        top: 2660px;
+
+    }
+}
+
+@media (max-width: 767px) {
+    main section:first-of-type > figure:nth-child(n+7) {
+        display: none;
+    }
+
+    main section:first-of-type > img {
+        display: none;
+    }
+
+}
+
+@media (max-width : 1023px) {
+
+    header nav:last-of-type {
+        display: none;
+    }
+
+
+}
+
+@media (min-width : 1023px) {
+
+    #main2 {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        margin-bottom: 40px;
+    }
+
+    #main2 > p {
+        display: none;
+    }
+
+    #main2 div:nth-of-type(2n+2) div:first-of-type img {
+        object-fit: cover;
+
+
+    }
+
+    nav:first-of-type ul li {
+        display: none;
+    }
+
+    nav:first-of-type ul {
+        display: none;
+    }
+
+    nav:last-of-type {
+        height: 165px;
+    }
+
+    nav ul:first-of-type li:nth-last-child(5) {
+        display: none;
+    }
+
+    nav:last-of-type a img {
+        width: 70px;
+        height: 70px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 80px;
+    }
+
+    nav:last-of-type ul:first-of-type {
+        display: flex;
+        position: relative;
+        left: 180px;
+        font-size: 14px;
+        bottom: 20px;
+
+
+    }
+
+    nav:last-of-type ul:first-of-type a li {
+        text-decoration: none;
+        color: #000000;
+        list-style-type: none;
+    }
+
+    nav:last-of-type ul:first-of-type a:last-of-type {
+        left: 80px;
+        position: relative;
+
+    }
+
+    nav:last-of-type ul:last-of-type{
+        display: flex;
+        list-style-type: none;
+        float: right;
+        position: relative;
+        bottom: 180px;
+        margin-right: 30px;
+        margin-top: 20px;
+        padding: 0;
+    }
+    nav:last-of-type ul:last-of-type a{
+        text-decoration: none;
+        color: #000000;
+         
+    }
+    nav:last-of-type ul:last-of-type a:focus{
+       outline-color: red;
+        font-weight: bold;
+         
+    }
+    nav:last-of-type ul:last-of-type a li{
+        display: flex;
+        
+    }
+
+  
+
+    nav:last-of-type ul:last-of-type a li svg {
+        width: 24px;
+        height: 24px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    nav:last-of-type ul:last-of-type a li svg:focus {
+        fill: #ff0000;
+        stroke:none;
+    }
+
+    nav:last-of-type form {
+        float: right;
+        position: relative;
+        left: 300px;
+        bottom: 40px;
+    }
+
+    nav:last-of-type form img {
+        width: 28px;
+        height: 28px;
+    }
+
+    nav:last-of-type form input {
+
+        background-color: transparent;
+        border: 0;
+        border-bottom: 1px solid #000000;
+        border-radius: 0;
+        box-sizing: border-box;
+        width: 105px;
+        outline: none;
+    }
+
+    nav:last-of-type form input:focus {
+
+
+        background-color: #ddd;
+        caret-color: crimson;
+    }
+
+    #main2 div:first-of-type div h2 {
+        line-height: 1400%;
+        top: 200px;
+
+    }
+
+    #main2 div:first-of-type div p {
+        top: 500px;
+
+    }
+
+    #main2 div:nth-of-type(2) div:first-of-type h2 {
+        top: 740px;
+        line-height: 1400%;
+    }
+
+    #main2 div:nth-of-type(2) div:last-of-type h2 {
+        top: 740px;
+        line-height: 1400%;
+    }
+
+    #main2 div:nth-of-type(2) div:last-of-type p {
+        top: 940px;
+    }
+
+    #main2 div:nth-of-type(3) div h2 {
+        top: 1080px;
+        line-height: 1600%;
+    }
+
+    #main2 div:nth-of-type(4) div:first-of-type h2 {
+        top: 1720px;
+        line-height: 1400%;
+    }
+
+    #main2 div:nth-of-type(4) div:last-of-type h2 {
+        top: 1720px;
+        line-height: 1400%;
+
+
+    }
+
+    #main2 div:nth-of-type(4) div:last-of-type p {
+
+        top: 1920px;
+
+    }
+
+    #main2 div:nth-of-type(5) div h2 {
+        top: 2020px;
+        line-height: 1800%;
+
+    }
+
+    #main2 div:nth-of-type(6) div:first-of-type h2 {
+        top: 2700px;
+        line-height: 1400%;
+
+    }
+
+    #main2 div:nth-of-type(6) div:last-of-type h2 {
+        top: 2700px;
+        line-height: 1400%;
+
+    }
+
+    #main2 div:nth-of-type(6) div:last-of-type p {
+
+        top: 2890px;
+
+    }
+
+    main > p:nth-child(1) {
+        margin-top: 0;
+        font-size: 14px;
+        margin-bottom: 40px;
+    }
+
+    main section:first-of-type > h1 {
+        margin-left: 160px;
+    }
+
+    main section:first-of-type figure img {
+        width: 100px;
+        height: 100px;
+    }
+
+    main section:first-of-type figure figcaption {
+        font-size: 14px;
+        margin-left: 5px;
+    }
+
+    section section:first-of-type div div:last-of-type p {
+        top: 880px;
+        color: #ffffff;
+        text-align: center;
+        font-size: 20px;
+        position: absolute;
+
+    }
+
+    section section:first-of-type div div:last-of-type h2 {
+        top: 840px;
+        color: #ffffff;
+        text-align: center;
+        font-size: 28px;
+        position: absolute;
+
+    }
+
+    section section:nth-of-type(2) div div:last-of-type h2 {
+        top: 1000px;
+        color: #ffffff;
+        text-align: center;
+        font-size: 28px;
+        position: absolute;
+
+    }
+
+
+    section:nth-of-type(2) > section:nth-of-type(3) div div:last-of-type h2 {
+        top: 1340px;
+        color: #ffffff;
+        text-align: center;
+        font-size: 28px;
+        position: absolute;
+
+    }
+
+    section:nth-of-type(2) > section:nth-of-type(3) div div:last-of-type p {
+        top: 1380px;
+        color: #ffffff;
+        text-align: center;
+        font-size: 20px;
+        position: absolute;
+
+    }
+
+    section section:last-of-type div div:last-of-type h2 {
+        top: 1760px;
+        color: #ffffff;
+        text-align: center;
+        font-size: 28px;
+        position: absolute;
+
+    }
+
+    section section:last-of-type div div:last-of-type p {
+        top: 1800px;
+        color: #ffffff;
+        text-align: center;
+        font-size: 20px;
+        position: absolute;
+
+    }
+
+}
+
+@media (max-width:1200px) {
+    nav ul:nth-of-type(2) {
+
+        display: none;
+    }
+
+}
+
+@media (min-width:1200px) {
+    main section:first-of-type > h1 {
+        margin-left: 240px;
+    }
+
+    #main2 div:nth-of-type(2n+2) div:first-of-type img {
+        width: 500px;
+
+
+    }
+
+    nav:last-of-type ul:first-of-type {
+        left: 0;
+        bottom: 140px;
+
+    }
+
+    nav ul:nth-of-type(2) {
+        display: flex;
+        margin-left: 300px;
+        margin-right: 300px;
+        position: relative;
+        bottom: 60px;
+    }
+
+    nav ul:nth-of-type(2) a li {
+        list-style: none;
+        margin-left: 20px;
+    }
+
+    nav ul:nth-of-type(2) a {
+        text-decoration: none;
+        color: #000000;
+    }
+
+    nav:last-of-type {
+        height: 215px;
+    }
+
+    #main2 div:nth-of-type(2) div:first-of-type h2 {
+        top: 840px;
+
+    }
+
+    #main2 div:nth-of-type(2) div:last-of-type h2 {
+        top: 840px;
+    }
+
+    #main2 div:nth-of-type(2) div:last-of-type p {
+
+        top: 1040px;
+    }
+
+    #main2 div:nth-of-type(3) div:last-of-type h2 {
+
+        top: 1140px;
+    }
+
+    #main2 div:nth-of-type(4) div:first-of-type h2 {
+        top: 1780px;
+    }
+
+    #main2 div:nth-of-type(4) div:last-of-type h2 {
+        top: 1780px;
+
+    }
+
+    #main2 div:nth-of-type(4) div:last-of-type p {
+        top: 1960px;
+    }
+
+    #main2 div:nth-of-type(5) div:last-of-type h2 {
+        top: 2080px;
+    }
+
+    nav:last-of-type ul:last-of-type {
+        bottom: 240px;
+    }
+
+    section section:nth-of-type(2) div div:last-of-type h2 {
+        top: 1040px;
+    }
+}
