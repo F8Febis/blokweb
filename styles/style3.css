@@ -933,7 +933,9 @@ footer p {
 
 
     }
-
+    nav ul:nth-of-type(2) {
+         display: none;
+    }
     nav:first-of-type ul li {
         display: none;
     }
@@ -1207,10 +1209,13 @@ footer p {
 
 }
 
-@media (max-width:1200px) {
+@media (max-width:767px) {
     nav ul:nth-of-type(2) {
 
         display: none;
+    }
+    main section > button svg{
+         display: none;
     }
 
 }
