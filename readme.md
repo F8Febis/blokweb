@@ -25,7 +25,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Voortgang 3 (week 6)
 
 -same as voortgang 1-
-
+Vorige week ha dik beide pagina's afgemaakt. Dus ik was eingelijk klaar met het vak. Maar ik besloot om mezelf uit te dagen en het responsive te maken voor alle devices. En het is me ook gelukt!
+Ik ben nu aan het experimenteren met animaties.
 
 
 ## Voortgang 2 (week 5)

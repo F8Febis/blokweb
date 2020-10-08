@@ -128,7 +128,7 @@ nav:first-of-type {
     position: fixed;
 }
 
-nav ul:first-of-type li {
+nav:first-of-type ul li {
     list-style: none;
     width: 22px;
     height: 22px;
@@ -136,26 +136,26 @@ nav ul:first-of-type li {
 
 }
 
-nav ul:first-of-type {
+nav:first-of-type ul {
     padding: 20px 10px 5px 10px;
     width: 100%;
     margin: 0;
 
 }
 
-nav > ul:first-of-type li:last-of-type {
+nav:first-of-type > ul li:last-of-type {
     width: 17px;
     height: 17px;
 
 }
 
-nav ul:first-of-type li:nth-last-child(5) {
+nav:first-of-type ul li:nth-last-child(5) {
     width: 30px;
     height: 30px;
     margin-left: 15px;
 }
 
-nav ul:first-of-type li:nth-last-child(-n+4) {
+nav:first-of-type ul li:nth-last-child(-n+4) {
     margin-left: 20px;
     float: right;
 
@@ -177,13 +177,13 @@ nav ul:first-of-type li:nth-last-child(-n+4) {
     }
 }
 
-nav ul:first-of-type li:nth-child(5) svg.hart {
+nav:first-of-type ul li:nth-child(5) svg.hart {
     animation-name: hartklop;
     animation-duration: 2s;
     animation-iteration-count: infinite;
 }
 
-nav ul:first-of-type li:nth-child(5) svg.hart path {
+nav:first-of-type ul li:nth-child(5) svg.hart path {
     animation-name: hartklop;
     fill: red;
     stroke: none;
@@ -201,8 +201,8 @@ main {
 }
 
 main section:first-of-type > h1 {
-    margin-left: 30px;
-    text-align: left;
+
+    text-align: center;
 }
 
 main > section:first-of-type {
@@ -371,17 +371,19 @@ section section:nth-of-type(3) div div:first-of-type img {
     height: 400px;
 
 }
+
 section section:nth-of-type(3) div div:last-of-type div {
-   border-radius: 5px;
+    border-radius: 5px;
     background-color: rgb(0, 0, 0, 0.7);
     padding: 8px 45px 15px 15px;
     position: absolute;
     top: 1020px;
- 
-    
+
+
 }
+
 #main1 section section:nth-of-type(3) div div:last-of-type div p:only-child {
-  font-size: 14px;
+    font-size: 14px;
     color: #ffffff;
 }
 
@@ -791,11 +793,6 @@ footer p {
         height: 34px;
     }
 
-    main section:first-of-type > h1 {
-        margin-left: 130px;
-
-    }
-
     main > section:nth-of-type(2) {
         margin-left: auto;
         margin-right: auto;
@@ -944,11 +941,12 @@ footer p {
     #main2 div:nth-of-type(2n+2) div:first-of-type img {
         object-fit: cover;
 
+    }
 
-    }
     nav ul:nth-of-type(2) {
-         display: none;
+        display: none;
     }
+
     nav:first-of-type ul li {
         display: none;
     }
@@ -976,27 +974,33 @@ footer p {
 
     nav:last-of-type ul:first-of-type {
         display: flex;
-        position: relative;
-        left: 180px;
         font-size: 14px;
-        bottom: 20px;
-
 
     }
 
-    nav:last-of-type ul:first-of-type a li {
+
+    nav:last-of-type ul:first-of-type li a {
         text-decoration: none;
         color: #000000;
-        list-style-type: none;
-    }
-
-    nav:last-of-type ul:first-of-type a:last-of-type {
-        left: 80px;
         position: relative;
+        bottom: 140px;
 
     }
 
-    nav:last-of-type ul:last-of-type{
+    nav:last-of-type ul:first-of-type li {
+        list-style-type: none;
+        margin-top: 5px;
+
+    }
+
+    nav:last-of-type ul:first-of-type li:last-of-type {
+        padding-left: 80px;
+
+
+
+    }
+
+    nav:last-of-type ul:last-of-type {
         display: flex;
         list-style-type: none;
         float: right;
@@ -1006,32 +1010,36 @@ footer p {
         margin-top: 20px;
         padding: 0;
     }
-    nav:last-of-type ul:last-of-type a{
+
+    nav:last-of-type ul:last-of-type li a {
         text-decoration: none;
         color: #000000;
-         
+
     }
-    nav:last-of-type ul:last-of-type a:focus{
-       outline-color: red;
+
+    nav:last-of-type ul:last-of-type li a:focus {
+        outline-color: red;
         font-weight: bold;
-         
+
     }
-    nav:last-of-type ul:last-of-type a li{
+
+    nav:last-of-type ul:last-of-type  li a {
         display: flex;
-        
+
     }
 
-  
 
-    nav:last-of-type ul:last-of-type a li svg {
+
+    nav:last-of-type ul:last-of-type li a svg {
         width: 24px;
         height: 24px;
         margin-left: 10px;
         margin-right: 10px;
     }
-    nav:last-of-type ul:last-of-type a li svg:focus {
+
+    nav:last-of-type ul:last-of-type  li a svg:focus {
         fill: #ff0000;
-        stroke:none;
+        stroke: none;
     }
 
     nav:last-of-type form {
@@ -1140,11 +1148,9 @@ footer p {
         margin-top: 0;
         font-size: 14px;
         margin-bottom: 40px;
+        text-align: center;
     }
 
-    main section:first-of-type > h1 {
-        margin-left: 160px;
-    }
 
     main section:first-of-type figure img {
         width: 100px;
@@ -1219,12 +1225,13 @@ footer p {
         position: absolute;
 
     }
+
     section section:nth-of-type(3) div div:last-of-type div {
-   
-    top: 1220px;
- 
-    
-}
+
+        top: 1220px;
+
+
+    }
 
 }
 
@@ -1233,16 +1240,14 @@ footer p {
 
         display: none;
     }
-    main section > button svg{
-         display: none;
+
+    main section > button svg {
+        display: none;
     }
 
 }
 
 @media (min-width:1200px) {
-    main section:first-of-type > h1 {
-        margin-left: 240px;
-    }
 
     #main2 div:nth-of-type(2n+2) div:first-of-type img {
         width: 500px;
@@ -1250,7 +1255,8 @@ footer p {
 
     }
 
-    nav:last-of-type ul:first-of-type {
+
+    nav:last-of-type ul:first-of-type li a {
         left: 0;
         bottom: 140px;
 
@@ -1264,12 +1270,12 @@ footer p {
         bottom: 60px;
     }
 
-    nav ul:nth-of-type(2) a li {
+    nav ul:nth-of-type(2) li {
         list-style: none;
         margin-left: 20px;
     }
 
-    nav ul:nth-of-type(2) a {
+    nav ul:nth-of-type(2) li a {
         text-decoration: none;
         color: #000000;
     }
