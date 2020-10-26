@@ -17,7 +17,6 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 -dit ging goed & dit was lastig-
 Ik was an klaar met mijn pagina's dus ik moest alleen alle puntjes op de i zetten. Bijvoorbeeld met code netjes maken, commentaar toevoegen, bronnenlijst etc.
 
-(Als u op mijn github link klikt, klik dan op de rode h&m logo.)
 
 **Screenshot(s):**
 
