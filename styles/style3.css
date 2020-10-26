@@ -35,7 +35,7 @@ header > div {
 
 header div > img {
     position: fixed;
-    left: 274px;
+    right: 20px;
     bottom: 300px;
     height: 26px;
     width: 26px;
@@ -189,7 +189,7 @@ nav:first-of-type ul li:nth-child(5) svg.hart path {
     stroke: none;
 }
 
-/* carousel */
+/* carousel/image slider */
 h1 {
     font-size: 18px;
     padding-left: 18px;
@@ -240,7 +240,7 @@ main section:first-of-type figure figcaption {
     color: #3d3c3c;
 }
 
-/* radio buttons */
+/* radio buttons van de image slider */
 #main1 > section:first-of-type div {
     margin-bottom: 20px;
 
@@ -299,7 +299,6 @@ main section > button:first-of-type svg {
     margin-bottom: 60px;
     margin-left: 10px;
     width: 26px;
-
     height: 26px;
 }
 
@@ -413,7 +412,7 @@ section section:first-of-type div div:last-of-type h2 {
 }
 
 section section:nth-of-type(2) div div:last-of-type h2 {
-    top: 785px;
+    top: 802px;
     color: #ffffff;
     text-align: center;
     font-size: 16px;
@@ -554,6 +553,7 @@ h3 {
 #main2 div div {
     display: flex;
     justify-content: center;
+
 
 }
 
@@ -780,10 +780,11 @@ footer p {
 
 }
 
+/* responsive */
+/* tablet */
 @media (min-width: 767px) {
 
     nav ul:first-of-type li {
-
         width: 24px;
         height: 24px;
     }
@@ -797,6 +798,17 @@ footer p {
         margin-left: auto;
         margin-right: auto;
         width: 80%;
+    }
+
+
+    header div > img {
+        right: 340px;
+        bottom: 500px;
+    }
+
+    header div > ul:last-of-type {
+
+        width: 50%;
     }
 
     #main1 > section:nth-of-type(3) > div div {
@@ -905,6 +917,7 @@ footer p {
     }
 }
 
+/* tablet */
 @media (max-width: 767px) {
     main section:first-of-type > figure:nth-child(n+7) {
         display: none;
@@ -914,8 +927,20 @@ footer p {
         display: none;
     }
 
+    nav ul:nth-of-type(2) {
+
+        display: none;
+    }
+
+    main section > button svg {
+        display: none;
+    }
+
 }
 
+
+
+/* desktop */
 @media (max-width : 1023px) {
 
     header nav:last-of-type {
@@ -925,6 +950,7 @@ footer p {
 
 }
 
+/* desktop  */
 @media (min-width : 1023px) {
 
     #main2 {
@@ -941,6 +967,16 @@ footer p {
     #main2 div:nth-of-type(2n+2) div:first-of-type img {
         object-fit: cover;
 
+    }
+
+    header > div.toonHamburger {
+
+        display: none;
+    }
+
+    header div > ul:last-of-type {
+
+        display: none;
     }
 
     nav ul:nth-of-type(2) {
@@ -989,14 +1025,11 @@ footer p {
 
     nav:last-of-type ul:first-of-type li {
         list-style-type: none;
-        margin-top: 5px;
 
     }
 
     nav:last-of-type ul:first-of-type li:last-of-type {
         padding-left: 80px;
-
-
 
     }
 
@@ -1023,12 +1056,10 @@ footer p {
 
     }
 
-    nav:last-of-type ul:last-of-type  li a {
+    nav:last-of-type ul:last-of-type li a {
         display: flex;
 
     }
-
-
 
     nav:last-of-type ul:last-of-type li a svg {
         width: 24px;
@@ -1037,7 +1068,7 @@ footer p {
         margin-right: 10px;
     }
 
-    nav:last-of-type ul:last-of-type  li a svg:focus {
+    nav:last-of-type ul:last-of-type li a svg:focus {
         fill: #ff0000;
         stroke: none;
     }
@@ -1055,7 +1086,6 @@ footer p {
     }
 
     nav:last-of-type form input {
-
         background-color: transparent;
         border: 0;
         border-bottom: 1px solid #000000;
@@ -1066,8 +1096,6 @@ footer p {
     }
 
     nav:last-of-type form input:focus {
-
-
         background-color: #ddd;
         caret-color: crimson;
     }
@@ -1151,7 +1179,6 @@ footer p {
         text-align: center;
     }
 
-
     main section:first-of-type figure img {
         width: 100px;
         height: 100px;
@@ -1160,6 +1187,18 @@ footer p {
     main section:first-of-type figure figcaption {
         font-size: 14px;
         margin-left: 5px;
+    }
+
+    main section:first-of-type figure:first-of-type figcaption {
+        width: 80px;
+    }
+
+    main section:first-of-type figure:nth-of-type(3) figcaption {
+        width: 80px;
+    }
+
+    main section:first-of-type figure:nth-of-type(4) figcaption {
+        width: 80px;
     }
 
     section section:first-of-type div div:last-of-type p {
@@ -1232,21 +1271,22 @@ footer p {
 
 
     }
+    footer p:nth-of-type(3) {
+        width: 120px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    footer p:nth-of-type(4) {
+        width: 580px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
 
 }
 
-@media (max-width:767px) {
-    nav ul:nth-of-type(2) {
-
-        display: none;
-    }
-
-    main section > button svg {
-        display: none;
-    }
-
-}
-
+/* desktop */
 @media (min-width:1200px) {
 
     #main2 div:nth-of-type(2n+2) div:first-of-type img {
@@ -1254,7 +1294,6 @@ footer p {
 
 
     }
-
 
     nav:last-of-type ul:first-of-type li a {
         left: 0;
@@ -1264,20 +1303,28 @@ footer p {
 
     nav ul:nth-of-type(2) {
         display: flex;
-        margin-left: 300px;
-        margin-right: 300px;
+        margin-left: auto;
+        margin-right: auto;
         position: relative;
         bottom: 60px;
+        text-align: center;
+        width: 580px;
     }
 
     nav ul:nth-of-type(2) li {
         list-style: none;
         margin-left: 20px;
+
     }
 
     nav ul:nth-of-type(2) li a {
         text-decoration: none;
         color: #000000;
+    }
+
+    nav ul:nth-of-type(2) li:hover {
+        text-decoration: underline;
+
     }
 
     nav:last-of-type {

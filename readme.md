@@ -6,26 +6,29 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
+1. -https://www.hiclipart.com-
+2. -https://www2.hm.com/nl_nl/index.html-
+3. -https://www.instagram.com/hm/?hl=en-
 
 
 
 ## Eindgesprek (week 7/8)
 
 -dit ging goed & dit was lastig-
+Ik was an klaar met mijn pagina's dus ik moest alleen alle puntjes op de i zetten. Bijvoorbeeld met code netjes maken, commentaar toevoegen, bronnenlijst etc.
+
+(Als u op mijn github link klikt, klik dan op de rode h&m logo.)
 
 **Screenshot(s):**
 
 -screenshot(s) van je eindresultaat-
-
+![screenshot(s) ](images/responsive.png)
 
 
 ## Voortgang 3 (week 6)
 
 -same as voortgang 1-
-Vorige week ha dik beide pagina's afgemaakt. Dus ik was eingelijk klaar met het vak. Maar ik besloot om mezelf uit te dagen en het responsive te maken voor alle devices. En het is me ook gelukt!
+Vorige week had ik beide pagina's afgemaakt. Dus ik was eingelijk klaar met het vak. Maar ik besloot om mezelf uit te dagen en het responsive te maken voor alle devices. En het is me ook gelukt!
 Ik ben nu aan het experimenteren met animaties.
 
 
