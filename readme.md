@@ -15,7 +15,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Eindgesprek (week 7/8)
 
 -dit ging goed & dit was lastig-
-Ik was an klaar met mijn pagina's dus ik moest alleen alle puntjes op de i zetten. Bijvoorbeeld met code netjes maken, commentaar toevoegen, bronnenlijst etc.
+
+Ik was al klaar met mijn pagina's dus ik moest alleen alle puntjes op de i zetten. Bijvoorbeeld met code netjes maken, commentaar toevoegen, bronnenlijst etc.
 
 
 **Screenshot(s):**
