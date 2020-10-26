@@ -1271,17 +1271,19 @@ footer p {
 
 
     }
+
     footer p:nth-of-type(3) {
         width: 120px;
         margin-left: auto;
         margin-right: auto;
-        
+
     }
+
     footer p:nth-of-type(4) {
         width: 580px;
         margin-left: auto;
         margin-right: auto;
-        
+
     }
 
 }
