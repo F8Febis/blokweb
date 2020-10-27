@@ -9,7 +9,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 1. -https://www.hiclipart.com-
 2. -https://www2.hm.com/nl_nl/index.html-
 3. -https://www.instagram.com/hm/?hl=en-
-
+4. -https://www.w3schools.com/-
+5. -https://www.balbooa.com/knowledgebase/32-documentation-faq-joomla/176-how-to-add-custom-font-to-website-through-fontface-
 
 
 ## Eindgesprek (week 7/8)

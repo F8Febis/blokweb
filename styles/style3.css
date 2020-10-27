@@ -189,7 +189,9 @@ nav:first-of-type ul li:nth-child(5) svg.hart path {
     stroke: none;
 }
 
-/* carousel/image slider */
+
+/* pagina 1 */
+
 h1 {
     font-size: 18px;
     padding-left: 18px;
@@ -205,6 +207,7 @@ main section:first-of-type > h1 {
     text-align: center;
 }
 
+/* carousel/image slider */
 main > section:first-of-type {
     width: 100%;
     margin: 0;
@@ -240,7 +243,7 @@ main section:first-of-type figure figcaption {
     color: #3d3c3c;
 }
 
-/* radio buttons van de image slider */
+/* radio buttons en pijltjes van de image slider */
 #main1 > section:first-of-type div {
     margin-bottom: 20px;
 
@@ -311,17 +314,8 @@ main section > button:last-of-type svg {
     border: 0;
 }
 
-
-main section > button svg:focus {
-    stroke: #FF0000;
-    outline: none;
-    border: 0;
-
-}
-
 main section > button svg a:hover {
     cursor: pointer;
-    stroke: #FF0000;
 }
 
 main section > button {
@@ -344,9 +338,8 @@ main > p:nth-child(1) {
 
 }
 
-
+/* 4 images met tekst */
 section:nth-of-type(2) div div:first-of-type img {
-
     width: 100%;
     position: relative;
     margin-bottom: 10px;
@@ -358,6 +351,24 @@ section:nth-of-type(2) div div:first-of-type img {
 section section:first-of-type div div:first-of-type img {
     height: 400px;
 
+}
+section section:first-of-type div div:last-of-type p {
+    top: 660px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+    font-size: 14px;
+
+}
+
+section section:first-of-type div div:last-of-type h2 {
+    top: 620px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+    font-size: 20px;
 
 }
 
@@ -378,7 +389,6 @@ section section:nth-of-type(3) div div:last-of-type div {
     position: absolute;
     top: 1020px;
 
-
 }
 
 #main1 section section:nth-of-type(3) div div:last-of-type div p:only-child {
@@ -388,26 +398,6 @@ section section:nth-of-type(3) div div:last-of-type div {
 
 section section:last-of-type div div:first-of-type img {
     height: 400px;
-
-}
-
-section section:first-of-type div div:last-of-type p {
-    top: 660px;
-    color: #ffffff;
-    text-align: center;
-    font-size: 12px;
-    position: absolute;
-    font-size: 14px;
-
-}
-
-section section:first-of-type div div:last-of-type h2 {
-    top: 620px;
-    color: #ffffff;
-    text-align: center;
-    font-size: 12px;
-    position: absolute;
-    font-size: 20px;
 
 }
 
@@ -460,9 +450,7 @@ section section:last-of-type div div:last-of-type p {
 
 
 
-/* section 3*/
-
-
+/* 3 cards  */
 #main1 > section:nth-of-type(3) {
     background-color: #F4EDDD;
     padding-bottom: 20px;
@@ -486,8 +474,6 @@ section section:last-of-type div div:last-of-type p {
 }
 
 #main1 > section:nth-of-type(3) div div {
-
-
     margin-bottom: 30px;
     background-color: #ffffff;
     width: 90%;
@@ -496,7 +482,6 @@ section section:last-of-type div div:last-of-type p {
 }
 
 #main1 > section:nth-of-type(3) div {
-
     margin-left: auto;
     margin-right: auto;
 
@@ -781,6 +766,7 @@ footer p {
 }
 
 /* responsive */
+
 /* tablet */
 @media (min-width: 767px) {
 
@@ -813,6 +799,12 @@ footer p {
 
     #main1 > section:nth-of-type(3) > div div {
         width: 30%;
+          transition: 0.3s;
+
+    }
+  #main1 > section:nth-of-type(3) > div div:hover {
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        
 
     }
 
@@ -917,7 +909,6 @@ footer p {
     }
 }
 
-/* tablet */
 @media (max-width: 767px) {
     main section:first-of-type > figure:nth-child(n+7) {
         display: none;
@@ -946,11 +937,8 @@ footer p {
     header nav:last-of-type {
         display: none;
     }
-
-
 }
 
-/* desktop  */
 @media (min-width : 1023px) {
 
     #main2 {
