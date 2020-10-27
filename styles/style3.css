@@ -352,6 +352,7 @@ section section:first-of-type div div:first-of-type img {
     height: 400px;
 
 }
+
 section section:first-of-type div div:last-of-type p {
     top: 660px;
     color: #ffffff;
@@ -538,8 +539,7 @@ h3 {
 #main2 div div {
     display: flex;
     justify-content: center;
-
-
+    width: 100%
 }
 
 #main2 > div h2 {
@@ -799,12 +799,13 @@ footer p {
 
     #main1 > section:nth-of-type(3) > div div {
         width: 30%;
-          transition: 0.3s;
+        transition: 0.3s;
 
     }
-  #main1 > section:nth-of-type(3) > div div:hover {
-      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-        
+
+    #main1 > section:nth-of-type(3) > div div:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+
 
     }
 
@@ -823,23 +824,24 @@ footer p {
 
     #main2 div:nth-of-type(2n+2) div:first-of-type img {
         height: 380px;
-        width: 460px;
+        width: 100%;
 
     }
 
     #main2 div:nth-of-type(2) div:last-of-type {
         height: 380px;
-        width: 55%;
+
     }
 
     #main2 div:nth-of-type(4) div:last-of-type {
         height: 380px;
-        width: 55%;
+
     }
 
     #main2 div:nth-of-type(6) div:last-of-type {
         height: 380px;
-        width: 55%;
+
+
     }
 
     #main2 div:first-of-type div h2 {
@@ -1280,7 +1282,7 @@ footer p {
 @media (min-width:1200px) {
 
     #main2 div:nth-of-type(2n+2) div:first-of-type img {
-        width: 500px;
+        width: 100%;
 
 
     }
